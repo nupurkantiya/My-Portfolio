@@ -3,6 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,33 +15,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "NGO Website",
+      description: "Designed a user-friendly website for an NGO to help them reach and engage more people effectively.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Automatic Sanitizer Dispenser",
+      description: "Developed an automatic sanitizer dispenser using sensor technology for touch-free, efficient, and hygienic dispensing.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Fire-Fighting Robot",
+      description: "Made a fire-fighting robot using Arduino-Nano",
+      imgUrl: projImg6,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Ez-Tie",
+      description: "Designed auto-lacing shoes which tightens the laces on a tap",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Student Management System",
+      description: "Student Management System built with Python Tkinter, designed for efficient student data management, including adding, updating, and viewing records in a user-friendly interface.",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Jewellery Website",
+      description: "Designed an elegant and user-friendly website for a jewelry shop, focused on showcasing products with a luxurious, visually appealing interface.",
       imgUrl: projImg3,
     },
   ];
@@ -51,7 +55,9 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Explore my diverse projects, showcasing my skills and dedication across various domains.
+                   Each project reflects my problem-solving abilities,
+                   technical expertise, and commitment to delivering high-quality solutions.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
